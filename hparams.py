@@ -5,14 +5,14 @@ import tensorflow as tf
 hparams = tf.contrib.training.HParams(
     # Comma-separated list of cleaners to run on text prior to training and eval. For non-English
     # text, you may want to use "basic_cleaners" or "transliteration_cleaners" See TRAINING_DATA.md.
-    cleaners='english_cleaners',
+    cleaners='basic_cleaners',
 
     # Audio:
     num_mels=80,
     num_freq=1025,
     min_mel_freq=125,
     max_mel_freq=7600,
-    sample_rate=22000,
+    sample_rate=16000,
     frame_length_ms=50,
     frame_shift_ms=12.5,
     min_level_db=-100,
@@ -37,7 +37,7 @@ hparams = tf.contrib.training.HParams(
     use_cmudict=False,   # Use CMUDict during training to learn pronunciation of ARPAbet phonemes
 
     # Eval:
-    max_iters=200,
+    max_iters=400,
     griffin_lim_iters=50,
     power=1.5,              # Power to raise magnitudes to prior to Griffin-Lim
 )

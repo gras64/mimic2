@@ -8,27 +8,26 @@ from util import plot
 
 sentences = [
     # From July 8, 2017 New York Times:
-    'Scientists at the CERN laboratory say they have discovered a new particle.',
-    'There’s a way to measure the acute emotional intelligence that has never gone out of style.',
-    'President Trump met with other leaders at the Group of 20 conference.',
-    'The Senate\'s bill to repeal and replace the Affordable Care Act is now imperiled.',
+    'Wissenschaftler des CERN-Labors sagen, sie hätten ein neues Teilchen entdeckt.',
+    'Es gibt eine Möglichkeit, die akute emotionale Intelligenz zu messen, die nie aus der Mode gekommen ist.',
+    'Präsident Trump traf sich mit anderen Führern auf der Konferenz der 20-köpfigen Gruppe.',
+    'Der Gesetzentwurf des Senats zur Aufhebung und Ersetzung des Affordable Care Act ist nun gefährdet.',
     # From Google's Tacotron example page:
-    'Generative adversarial network or variational auto-encoder.',
-    'The buses aren\'t the problem, they actually provide a solution.',
-    'Does the quick brown fox jump over the lazy dog?',
-    'Talib Kweli confirmed to AllHipHop that he will be releasing an album in the next year.',
+    'Generatives kontradiktorisches Netzwerk oder Variations-Auto-Encoder.',
+    'Die Busse sind nicht das Problem, sie bieten tatsächlich eine Lösung.',
+    'Spricht der schnelle braune Fuchs über den faulen Hund?',
+    'Talib Kweli bestätigte gegenüber AllHipHop, dass er im nächsten Jahr ein Album veröffentlichen wird.',
     # From mycroft
-    "It took me quite a long time to develop a voice, and now that I have it I'm not going to be silent.",
-    "As commander-in-chief of the Continental Army during the American Revolutionary War, he was the principal force in the surrender of the British at Yorktown",
-    "Be a voice, not an echo.",
-    "The human voice is the most perfect instrument of all.",
-    "I'm sorry Dave, I'm afraid I can't do that.",
-    "This cake is great, It's so delicious and moist.",
-    "hello, my name is mycroft.",
-    "hi.",
-    "wow.",
+    "Ich brauchte eine ziemlich lange Zeit, um eine Stimme zu entwickeln, und jetzt, da ich sie habe, werde ich nicht schweigen.",
+    "Sei eine Stimme, kein Echo.",
+    "Die menschliche Stimme ist das vollkommenste Instrument von allen.",
+    "Es tut mir leid, Dave, ich fürchte, das kann ich nicht.",
+    "This cake is great, It's so delicious and frisch.",
+    "Hallo, mein Name ist Mycroft.",
+    "hallo.",
+    "Beeindruckend.",
     "cool.",
-    "great.",
+    "großartig.",
 ]
 
 
